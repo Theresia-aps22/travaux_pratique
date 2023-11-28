@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "name": "pratique",
+  "version": "1.0.0",
+  "description": "pratique express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello word\""
+  },
+  "author": "",
+  "license": "ISC"
+}
