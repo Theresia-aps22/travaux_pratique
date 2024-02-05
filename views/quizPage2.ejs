@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+</head>
+<body>
+    <h1>Quizz</h1>
+    <p><%= test %></p>
+    <form method="post" action="/quizz2/:answer">
+        <p>L'eau est composé de?</p>
+        <div>
+            <input type="radio" name="answer" value="O2" id="cc">
+            <label for="O2">O2</label><br>
+
+            <input type="radio" name="answer" value="H2" id="ChristophColomb">
+            <label for="H2">H2</label><br>
+
+            <input type="radio" name="answer" value="CO2" id="GW">
+            <label for="CO2">CO2</label><br>
+        </div>
+        <div>
+            <input type="submit" value="Corriger">
+        </div>
+    </form>
+</body>
+</html>

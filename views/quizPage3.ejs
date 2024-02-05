@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+</head>
+<body>
+    <h1>Quizz</h1>
+    <form method="post" action="/quizz3/:answer">
+        <div>
+            <p>Lequel d'entre eux n'est pas un framework JS</p>
+            <input type="radio" name="answer" value="Node">
+            <label for="Node">Node</label><br>
+
+            <input type="radio" name="answer" value="Angular">
+            <label for="Angular">Angular</label><br>
+
+            <input type="radio" name="answer" value="Laravel">
+            <label for="Laravel">Laravel</label><br>
+        </div>
+        <div>
+            <input type="submit" title="Corriger" >
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+</head>
+<body>
+    <h1>Quizz</h1>
+    <p><%= test %></p>
+    <form method="post" action="/quizz1/:answer">
+        <p>Qui a découvert l'Amérique?</p>
+        <div>
+            <input type="radio" name="answer" value="cc" id="cc">
+            <label for="cc">Christophe Colomb</label><br>
+
+            <input type="radio" name="answer" value="ChristophColomb" id="ChristophColomb">
+            <label for="ChristophColomb">Christoph Colomb</label><br>
+
+            <input type="radio" name="answer" value="GW" id="GW">
+            <label for="GW">George Washington</label><br>
+        </div>
+        <div>
+            <input type="submit" value="Corriger">
+        </div>
+    </form>
+</body>
+</html>

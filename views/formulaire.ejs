@@ -6,17 +6,18 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <p1>Remplir le formulaire</p1>
-    <form method="post" >
+    <h1>Remplir le formulaire</h1>
+    <p><%= test %></p>
+    <form method="post" action="/formulaire">
         <label for="firstname">Nom</label>
-        <input type="text" id="firstname" name="firstname">
+        <input type="text" id="firstname" name="firstname"><br/>
         <label for="lastname">Prénom</label>
-        <input type="text" id="lastname" name="lastname">
+        <input type="text" id="lastname" name="lastname"><br/>
         <label for="mdp">Mot de Passe</label>
-        <input type="password" id="mdp" name="mdp">
+        <input type="password" id="mdp" name="mdp"><br/>
         <label for="confirmMdp">Confirmation Mot de Passe</label>
-        <input type="password" id="confirmMdp" name="confirmMdp">
-        <input type="submit" title="Envoyer">
+        <input type="password" id="confirmMdp" name="confirmMdp"><br/>
+        <input type="submit" value="Envoyer">
     </form>
 </body>
 </html>
